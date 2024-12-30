@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors AI</title>
+    
+  </head>
+  <body>
+    <div class="box">
+    <h1 >Rock Paper Scissors AI Prediction</h1>
+  </div>
+  <div class="main">
+    <div class="game">
+      <div id="result">
+        <div id="inside">
+        <h1 >Play Now</h1>
+      </div>
+        <p id="score">0 - 0</p>
+        <p id="user">You:</p>
+        <p id="comp">Ai:</p>
+        <p id="winner">Winner:</p>
+      </div>
+      <div class="choices">
+        <button onclick="addMove('rock')">Rock</button>
+        <button onclick="addMove('paper')">Paper</button>
+        <button onclick="addMove('scissors')">Scissors</button>
+      </div>
+
+      
+    </div>
+    <div class="detail">
+      <div class="msg-for-user">
+        <div class="header">
+          <h1>Play Rock Paper Scissors! </h1>
+        </div>
+
+        <h2 style="text-align: center; line-height: 1.6; font-size: 20px;"> The AI starts with random choices but learns your pattern. <br><br> Example: rock, rock, rock or rock, paper, scissors, paper. <br><br> To win, stay unpredictable!</h2>
+
+        
+      </div>
+    </div>
+    
+  </div>
+  <footer>
+    <div class="end">
+      <div class="text">
+        Made by Mission Karki<br>
+        <div class="fb"><a href="https://www.facebook.com/profile.php?id=61558180540377" target="_blank">FaceBook</a></div>
+        
+      </div>
+    </div>
+  </footer>
+    <script src="app.js">
+      
+    </script>
+  </body>
+</html>
